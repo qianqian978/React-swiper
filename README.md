@@ -1,14 +1,13 @@
 # React-swiper
 React swiper组件
 
-Swipe轮播基础组件
-
 调用示例：
 <Swipe data={{height:"280px"}} >
-            <div className="swiper" style={{background:"#000"}}>1</div>
-            <div className="swiper" style={{background:"red"}}>2</div>
-            <div className="swiper" style={{background:"pink"}}>3</div>
+            <div className="swiper" style={{background:"#000"}}>1</div>	
+            <div className="swiper" style={{background:"red"}}>2</div>	
+            <div className="swiper" style={{background:"pink"}}>3</div>	
 </Swipe>
+
 
 对外暴露方法：
 animateStop()
@@ -31,5 +30,3 @@ data.children："jsx结构说明，要求拥有相同结构的子节点序列，
                 <div style={{background:""#000""}}>1</div>
                 <div style={{background:""red""}}>2</div>
                 <div style={{background:""pink""}}>3</div>"
-
-
