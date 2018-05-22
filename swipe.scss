@@ -1,0 +1,52 @@
+@import '../../base/config.scss';
+.cmr-swipe{
+	position: relative;
+	width: 100%;
+}
+.cmr-swipe img{
+	width:100%;
+}
+.cmr-swipe-main{
+	width: 100%;
+	box-sizing:border-box;
+	-webkit-transform: translate3d(0,0,0);
+	overflow: hidden;
+	z-index: 0;
+}
+.cmr-swipe-body{
+	display: -webkit-box;
+	width: 100%;
+}
+.cmr-swipe-box{
+	width: 100%;
+	height: inherit;
+}
+.cmr-swipe-op{
+	position: absolute;
+	display: -webkit-box;
+	bottom: 2px;
+	left: 50%;
+	z-index: 1;
+	-webkit-transform: translateX(-50%);
+}
+.cmr-swipe-op-right{
+	left: 100%;
+	-webkit-transform: translateX(-100%);
+	padding-right: 10px;
+}
+.cmr-swipe-button{
+	width: 4px;
+	height: 4px;
+	-webkit-box-flex:1;
+	border-radius: 100%;
+	background: $colorWhite;
+	opacity: 0.5;
+	margin: 3px;
+}
+.cmr-swipe-button-cur{
+	background:$colorWhite;
+	opacity: 1;
+}
+.cmr-swipe-nobottom{
+	display: none;
+}
