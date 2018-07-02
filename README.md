@@ -3,20 +3,6 @@ React swiper轮播组件
 
 <div>调用示例：</div
   
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>swiper</title>
-</head>
-<body>
-  <div id="swiper"></div>
-  <script src="./swiper.js"></script>
-</body>
-</html>
-```
-
 ```jsx
 var SwipeInit = React.createClass({
         animateStop:function(){
