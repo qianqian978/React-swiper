@@ -23,7 +23,7 @@ var SwipeInit = React.createClass({
 });
 ReactDOM.render(
          <SwipeInit/>,
-        document.getElementById('swiper')
+        document.getElementById('swipe')
 );
 ```
 
