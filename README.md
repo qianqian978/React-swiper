@@ -1,7 +1,7 @@
 # React-swiper
 React swiper轮播组件
 
-<div>调用示例：</div
+<div>调用示例：</div>
   
 ```jsx
 var SwipeInit = React.createClass({
